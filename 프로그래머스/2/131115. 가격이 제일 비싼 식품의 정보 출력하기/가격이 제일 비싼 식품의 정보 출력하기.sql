@@ -1,0 +1,7 @@
+-- 코드를 입력하세요
+SELECT *
+FROM (
+    SELECT *
+    FROM FOOD_PRODUCT
+    ORDER BY 5 DESC)
+WHERE ROWNUM = 1
